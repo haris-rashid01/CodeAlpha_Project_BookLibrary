@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Book Library</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="shortcut icon" href="books.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1><i class="fas fa-book"></i> Personal Book Library</h1>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search for books...">
+            <button><i class="fas fa-search"></i></button>
+        </div>
+    </header>
+
+    <section id="bookList" class="grid-container">
+        <!-- Books will be dynamically added here -->
+    </section>
+
+    <section id="bookDetails" class="details-container">
+        <!-- Book details and borrowing history will be shown here -->
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
